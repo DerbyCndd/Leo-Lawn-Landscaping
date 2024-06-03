@@ -87,7 +87,18 @@ header{
 }
 */
 
-
+.results{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+.work{
+    object-fit: contain;
+}
 .Imagem{
     width: 100%; /* Ajuste o tamanho conforme necessário */
     height: 225px; /* Ajuste o tamanho conforme necessário */
@@ -96,7 +107,8 @@ header{
 
 .service{
     display: flex;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
+    width: 100%;
     gap: 10px;
 }
