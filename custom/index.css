@@ -129,20 +129,6 @@ header{
     height: fit-content;
     width: 100%;
     gap: 10px;
-<<<<<<< HEAD
-    background-color: #fff;
-}
-
-footer {
-    width: 100%;
-    color: var(--color-neutral-40);
-}
-
-.footer-link {
-    text-decoration: none;
-}
-
-=======
     
 }
 
@@ -206,7 +192,6 @@ footer {
     text-decoration: none;
 }
 
->>>>>>> ernesto
 #footer_content {
     background-color: #4267b3;
     text-align: center;
@@ -223,10 +208,6 @@ footer {
     margin-top: 1.5rem;
 } 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> ernesto
 #input_group button:hover {
     opacity: 0.8;
 }
