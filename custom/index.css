@@ -98,18 +98,36 @@ header{
     }
 }
 
-
-/*#sobre{
-    display: flex;
-    justify-content: center;
-}
-*/
-
-.Imagem{
+.grama {
     width: 100%;
-    height: 225px;
-    object-fit: cover;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat : no-repeat;
+    animation-name: animate;
+    animation-timing-function: ease-in-out;
+    animation-duration: 40s; 
+    animation-iteration-count: infinite; 
 }
+
+@keyframes animate {
+    0% {
+        background-image: url(../images/grama.avif);
+    }
+    25% {
+        background-image: url(../images/fence.jpg);
+    }
+    50% {
+        background-image: url(../images/mulch.jpg);
+    }
+    75% {
+        background-image: url(../images/sod.webp);
+    }
+    100% {
+        background-image: url(../images/grama.avif.avif);
+    }
+}
+
 
 .about{
     margin: auto;
@@ -200,10 +218,6 @@ header{
 .icons{
     height: 100%;
     width: 80%;
-}
-
-.content{
-
 }
 
 
