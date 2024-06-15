@@ -104,15 +104,12 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat : no-repeat;
-    animation-name: animate;
-    animation-timing-function: ease-in-out;
-    animation-duration: 40s; 
-    animation-iteration-count: infinite; 
+    animation : animate ease-in-out 3.9s infinite ;
 }
 
 @keyframes animate {
     0% {
-        background-image: url(../images/grama.avif);
+        background-image: url(../images/grama.avif.avif);
     }
     25% {
         background-image: url(../images/fence.jpg);
