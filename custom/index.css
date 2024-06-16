@@ -176,7 +176,7 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
     flex-wrap: wrap;
     margin-bottom: 20px;
     width: 100%;
@@ -206,6 +206,7 @@ header{
     margin: 5px;
     max-width:30%;
     min-width: 30%;
+    max-height: 234px;
 }
 
 .icons{
