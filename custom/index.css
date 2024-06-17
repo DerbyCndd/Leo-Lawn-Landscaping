@@ -3,7 +3,9 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    /*font-family: 'Inter', sans-serif;*/
+    font-family: cursive;
+    font-weight: bold;
     
 }
 
@@ -53,7 +55,7 @@ header{
 .logo h1 {
     
     color: #fff;
-    font-family: cursive;
+   /* font-family: cursive;*/
     font-size: 45px;
 }
 
@@ -124,7 +126,7 @@ header{
 
 .principal{
     margin-top: 70px;
-    width: 97%;
+    width: 98%;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -162,9 +164,11 @@ header{
 
 #facts{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 5px;
-    width: 80%;   
+    padding-top: 20px;
+    width: 80%;
+    height: 110px; 
 }
 
 #facts p{
