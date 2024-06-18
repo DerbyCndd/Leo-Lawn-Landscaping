@@ -82,8 +82,10 @@ header{
         
         font-size: 28px;
     }
+   
     
 }
+
 
 .nav-item{
     margin: 0 15px;
@@ -318,7 +320,11 @@ footer {
         font-size: 25px;
     }
 }
-
+@media screen and ( max-width: 367px){
+    #footer_contacts h1{
+        font-size: 22px;
+    }
+}
 #footer_contacts h1 {
     margin-bottom: 0.75rem;
     
