@@ -63,30 +63,6 @@ header{
     font-size: 45px;
 }
 
-@media screen and (max-width: 670px) {
-    .logo h1 {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    #lg{
-        width: 60px;
-        height: 60px;
-    }
-    header{
-        max-height: 80px;
-        min-height: 80px;   
-    }
-    .logo h1 {
-        
-        font-size: 28px;
-    }
-   
-    
-}
-
-
 .nav-item{
     margin: 0 15px;
 }
@@ -219,20 +195,22 @@ header{
     height: 100%;
 }
 
-.work{
-    
+.work{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-style: solid;
     border-width: 2px;
     border-color: #ffffff;
     border-radius: 20px;
     text-align: center;
     padding: 5px;
-    flex: 1 1 35%; 
     margin: 5px;
-    max-width:35%;
-    min-width: 35%;
-    height: 35vh;
-
+    flex: 1 1 30%;
+    width: 30%;
+    max-width: 30%;
+    height: fit-content;
 }
 
 .icons{
@@ -315,16 +293,7 @@ footer {
     text-align: center;
     padding: 3rem 3.5rem;
 }
-@media screen and (max-width: 501px) {
-    #footer_contacts h1{
-        font-size: 25px;
-    }
-}
-@media screen and ( max-width: 367px){
-    #footer_contacts h1{
-        font-size: 22px;
-    }
-}
+
 #footer_contacts h1 {
     margin-bottom: 0.75rem;
     
@@ -363,3 +332,56 @@ footer {
     
 }
 
+@media screen and (max-width: 670px) {
+    .logo h1 {
+        font-size: 40px;
+    }
+    .work{
+        flex: 1 1 40%;
+        width: 40%;
+        max-width: 40%;
+        height: 35vh;
+    }
+}
+@media screen and (max-width: 501px) {
+    #footer_contacts h1{
+        font-size: 25px;
+    }
+}
+@media screen and ( max-width: 367px){
+    #footer_contacts h1{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #lg{
+        width: 60px;
+        height: 60px;
+    }
+    header{
+        max-height: 80px;
+        min-height: 80px;   
+    }
+    .logo h1 {
+        
+        font-size: 28px;
+    }
+    .work{
+        flex: 1 1 35%;
+        width: 40%;
+        max-width: 40%;
+        height: 30vh;
+    }
+
+}
+@media screen and (max-width: 1680px) {
+   
+    .work{
+        flex: 1 1 30%;
+        width: 30%;
+        max-width: 30%;
+        height:30vh;
+    }
+
+}
