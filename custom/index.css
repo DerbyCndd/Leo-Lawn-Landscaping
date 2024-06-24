@@ -83,9 +83,8 @@ header {
   justify-content: center;
   height: 250px;
   margin-top: 80px;
-  background-color: #749c83;
+  background-color: transparent;
   padding: 0 400px;
-  box-shadow: 0px 2px 10px #fff;
   z-index: 99;
 }
 
