@@ -76,35 +76,45 @@ header {
   width: 250px;
   right: 0px;
 }
+
 .about {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 250px;
-  margin-top: 80px;
   background-color: transparent;
   padding: 0 400px;
   z-index: 99;
 }
 
 .title {
-  font-size: 1.5em;
+  font-size: 1.6em;
   margin-bottom: 20px;
+  font-weight: 800;
 }
 
 .content {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 .anim {
-  /* margin-top: 80px; */
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
   width: 100%;
-  height: 80vh;
+  height: 60vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   animation: animate 30s ease-in-out infinite;
+  opacity: 0.7;
 }
+
+.anim .about {
+  opacity: 1; 
+}
+
 
 @keyframes animate {
   0% {
@@ -356,6 +366,10 @@ footer {
   .logo h1 {
     font-size: 25px;
   }
+  .anim {
+    margin-top: 184px; 
+  
+  }
   .contact {
     position: static;
     background-color: rgb(158, 158, 29);
@@ -365,7 +379,6 @@ footer {
     font-weight: 500;
   }
   .about {
-    margin-top: 180px;
     padding: 0 10px;
   }
   #works {
@@ -382,6 +395,9 @@ footer {
     max-width: 100%;
     min-width: 100%;
     max-height: 234px;
+  }
+  .container-slide {
+    height: 300px;
   }
  
 }
