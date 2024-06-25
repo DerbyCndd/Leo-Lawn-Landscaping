@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #9fb496;
+  width: 100%;
   text-align: center;
   background: linear-gradient(120deg, #9fb496 40%, #4267b3 80.71%);
   overflow-x: hidden;
