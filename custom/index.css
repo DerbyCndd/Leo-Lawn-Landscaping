@@ -77,7 +77,9 @@ header {
   width: 250px;
   right: 0px;
 }
-
+.number{
+  color: black;
+}
 .about {
   text-align: center;
   display: flex;
@@ -289,24 +291,31 @@ header {
   object-fit: cover;
 }
 
-.slider-nav {
-  display: flex;
-  column-gap: 1rem;
+
+
+.slider-prev, .slider-next {
   position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 2;
 }
 
-.slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background-color: #fff;
-  opacity: 0.75;
-  transition: opacity ease 250ms;
+.slider-prev {
+  left: 1rem;
 }
+
+.slider-next {
+  right: 1rem;
+}
+
+.slider-prev:hover, .slider-next:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
 
 footer {
   align-self: center;

@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const title = 'About us'
   const content =
     'We’ve been in business for over 20 years now. Not only do we pride ourselves on our quality of work, but also in attending to the specific needs of each individual client.'
 
@@ -18,8 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     type()
   }
 
-  typeWriter(document.querySelector('.title'), title, 100)
-  setTimeout(() => {
-    typeWriter(document.querySelector('.content'), content, 50)
-  }, title.length * 100 + 500)
+  typeWriter(document.querySelector('.content'), content, 100)
+  setTimeout()
 })
