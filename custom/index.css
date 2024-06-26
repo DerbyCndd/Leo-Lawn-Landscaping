@@ -81,14 +81,14 @@ header {
   color: black;
 }
 .about {
-  text-align: center;
   display: flex;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
-  height: 250px;
   background-color: transparent;
-  padding: 0 400px;
   z-index: 99;
+  width: 100%;
 }
 
 .title {
@@ -97,9 +97,15 @@ header {
   font-weight: 800;
 }
 
+#type{
+  width: 80%;
+  
+}
+
 .content {
-  font-size: 1.2em;
   font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
 }
 .anim {
   margin-top: 80px;
@@ -176,7 +182,7 @@ header {
 }
 
 .content {
-  margin: auto;
+  
   align-items: center;
 }
 
@@ -410,7 +416,9 @@ footer {
   .container-slide {
     height: 300px;
   }
- 
+  .content{
+    font-size:18px ;
+  }
 }
 
 /* Tablets */

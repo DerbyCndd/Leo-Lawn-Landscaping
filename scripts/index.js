@@ -17,6 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     type()
   }
 
-  typeWriter(document.querySelector('.content'), content, 100)
-  setTimeout()
+  typeWriter(document.querySelector('.content'), content, 50);
+  setTimeout();
 })
