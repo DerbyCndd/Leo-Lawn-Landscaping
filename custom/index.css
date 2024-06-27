@@ -438,7 +438,7 @@ footer {
     font-weight: 500;
   }
   .about {
-    padding: 0 180px;
+    padding: 0 60px;
   }
   #works {
     display: flex;
@@ -471,7 +471,7 @@ footer {
     font-weight: 500;
   }
   .about {
-    padding: 0 180px;
+    padding: 0 100px;
   }
 }
 
